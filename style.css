@@ -35,7 +35,7 @@ html,body{
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: black !important;
+    background-color: black;
 }
 
 .card-body {
@@ -84,7 +84,7 @@ u {
 
 .stars {
     color: #ffcc00;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -165,3 +165,10 @@ p {
     background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.form-group{
+    color: white !important;
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
